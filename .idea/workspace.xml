@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bbb1299d-95df-4ad3-8008-68a7350de9ff" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spike_stability/cluster/wavemap.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spike_stability/stability/embeddings.py" beforeDir="false" />
-    </list>
+    <list default="true" id="bbb1299d-95df-4ad3-8008-68a7350de9ff" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,7 +32,7 @@
       <option name="presentableId" value="Default" />
       <updated>1663895580628</updated>
       <workItem from="1663895585881" duration="334000" />
-      <workItem from="1663896045291" duration="1405000" />
+      <workItem from="1663896045291" duration="1501000" />
     </task>
     <servers />
   </component>
