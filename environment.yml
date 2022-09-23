@@ -1,0 +1,18 @@
+name: spike_stability
+channels:
+  - defaults
+dependencies:
+  - pip
+  - python
+  - ipykernel
+  - pandas
+  - scipy
+  - matplotlib
+  - numpy
+  - scikit-learn
+  - qtpy
+  - tensorflow
+  - statsmodels
+  - colorutils
+  - seaborn
+prefix: your_prefix_here
