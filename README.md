@@ -46,7 +46,7 @@ This has various clustering methods used to differentiate neurons (spike sorting
 The heart of this repository. This contains multiple methods allowing the user to perform consistency analysis given spikes, dates, timestamps and cluster labels. 
 
 The consistency analysis is composed of multiple different scripts and functions. These contain:
-- 3D visualization of clusters after dimensionality reduction over recording days
+- Dimensionality reduction over recording days
 - Features computed from spike waveforms analysed over time
 - ISI distribution profiles analyzed over time
 - Waveform auto and cross-correlation analysis
