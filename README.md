@@ -24,7 +24,7 @@ pip install -r requirements.txt
 ```
 
 ## Data
-This repository relies on various types of data to use all its functionalities. Due to the size of the data files associated with this work, it is inconvenient to host these on github. Example files are provided in the data/ repository but people should contact the corresponding author of the manuscript to inquire about access to the large volume of data analyzed in this work.
+This repository relies on various types of data to use all its functionalities. Due to the size of the data files associated with this work, it is inconvenient to host these on github. Example files are provided in the [Google Drive link](https://drive.google.com/drive/folders/1lHGkvfXL9cYDBkMBR4nK4yQNwJvKRVCT?usp=sharing) but people should contact the corresponding author of the manuscript to inquire about access to the large volume of data analyzed in this work.
 
 Follow the tutorials and example worflows in the jupyter notebooks for more details about importing various data types.
 
