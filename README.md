@@ -1,7 +1,7 @@
 # Tracking neural activity from the same cells during the entire adult life of mice
 
 ## Overview
-This repository contains a python package written along with the manuscript from Zhao, Tang, Tian, Partarrieu et al. ["Tracking neural activity from the same cells during the entire adult life of mice"](https://www.biorxiv.org/content/10.1101/2021.10.29.466524v1). It was developped in order to make a standalone package being able to do the various steps of the neural signal analysis. The ultimate goal is to make consistency/stability analysis of long-term neural recordings easier and more accessible. As this is adapted to a specific type of BMI technology, there are necessarily functions and parts of the package that might not generalize so well to your data.
+This repository contains a python package written along with the manuscript from Zhao, Tang, Tian, Partarrieu et al. ["Tracking neural activity from the same cells during the entire adult life of mice"](https://www.biorxiv.org/content/10.1101/2021.10.29.466524v1). It was developped in order to make a standalone package being able to do the various steps of the neural signal analysis. The ultimate goal is to make consistency/stability analysis of long-term neural recordings easier and more accessible. As this is adapted to a specific type of BMI technology, there are necessarily functions and parts of the package that might not generalize so well to your data. This repository contains software, microcontroller firmware, data and analysis scripts used in the article.
 
 ## Installation
 Before any of the following, make sure you have a working installation of python. If you're starting from scratch, the easiest will probably be to download the [Anaconda](https://www.anaconda.com/products/individual) toolkit which will also download what you need to be able to run the notebooks and the anaconda command prompt which may be useful in running some of the commands below.
@@ -23,18 +23,8 @@ You can always [create your own environment](https://docs.conda.io/projects/cond
 pip install -r requirements.txt
 ```
 
-## Data
-This repository relies on various types of data to use all its functionalities. Due to the size of the data files associated with this work, it is inconvenient to host these on github. People should contact the corresponding author of the manuscript to inquire about access to the large volume of data analyzed in this work.
-
-Follow the tutorials and example worflows in the jupyter notebooks for more details about importing various data types.
-
 ## Package structure 
 This package is divided into several main submodules, each performing some clear task: import, cluster, preprocessing and quality. 
-
-### import_data
-Contains necessary import functions to process .mat or .nsX data provided they have a certain structure. This is for importing data from *files* in separate directories, and has been written with our particular file structure in mind. You can always pass custom functions to read your own .mat file strucure if need be and change regular expressions written to fetch the date from the file path or channel information from the file name.
-
-More details are provided in the example workflows.
 
 ### preprocessing
 Contains a few preprocessing functions for basic quality control of the recordings: removing artifacts from the signal, ensuring spike alignment, ...
